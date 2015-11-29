@@ -16,7 +16,6 @@ module.exports = React.createClass({
           </ul>
         </div>
       </nav>
-    );
+    )
   }
-
 });
