@@ -10,7 +10,7 @@ var Topic = require('./components/topic');
 module.exports = (
   <Router history={new HashHistory}>
     <Route path="/" component={Main}>
-      <Route path="topics/2" component={Topic} />
+      <Route path="topics/:id" component={Topic} />
     </Route>
   </Router>
 );
